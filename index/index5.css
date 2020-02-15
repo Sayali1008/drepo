@@ -1,0 +1,126 @@
+/* INDEX PAGE ****************************************************************/
+
+html {
+    scroll-behavior: smooth;
+}
+
+#drepo {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    height: 87%;
+}
+
+.title-page {
+    /* margin-top: 15%; */
+    /* margin-left: 35%; */
+    padding-top: 16%;
+    padding-left: 11%;
+    font-family: 'Merriweather', serif;
+    color: #c7c7c7;
+    font-size: 43px;
+    text-align: center;
+}
+
+#section1 {
+    height: 100%;
+    background-color: lightcyan;
+    display: inline-block;
+    width: 100%;
+    margin-top: 0% !important;
+}
+
+div.aboutus {
+    margin: 10%;
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+}
+
+div.para {
+    margin-top: 3%;
+    font-family: 'Merriweather', serif;
+}
+
+#section2 {
+    height: 100%;
+    background-color: lightsteelblue;
+    display: inline-block;
+    width: 100%;
+}
+
+div.contact {
+    margin-top: 7.5%;
+    text-align: center;
+}
+
+/* NAVBAR ****************************************************************/
+
+.title-head {
+    font-family: 'Jomolhari', serif;
+    font-size: 40px;
+}
+
+.login-button {
+    background: none;
+    /* background-color: #c8f7f7; */
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* LOGIN PAGE ****************************************************************/
+
+#input-email, #input-password, #input-text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form {
+    background-color: rgb(37, 146, 197, 0.3);
+    /* opacity: 0.7; */
+    margin-top: 3%;
+    padding: 4%;
+    /* margin-bottom: 3%; */
+}
+
+/* REGISTER PAGE ****************************************************************/
+
+#input-text1, #input-text3 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#input-text2 {
+    width: 70%;
+    /* padding: 12px 20px; */
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#input-date {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
